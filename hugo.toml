@@ -1,0 +1,4 @@
+baseURL = 'https://buffos.github.io/'
+languageCode = 'en-us'
+title = "Buffo's Land"
+theme = "DoIt"
