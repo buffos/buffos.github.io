@@ -1,14 +1,5 @@
-+++
-date = '2025-08-27T22:30:43+03:00'
-authors = ["Kostas"]
-draft = false
-title = "LaTeX: Creating placeholder boxes for mathematical operations"
-tags = ["latex","boxes"]
-categories = ["LaTeX",]
-lightgallery =  true
-images = ["/images/2025/latex_boxes.avif"]
-featuredImage = "images/2025/latex_boxes.webp"
-+++
+# LaTeX: Creating placeholder boxes for mathematical operations
+
 
 Did you ever need empty placeholder boxes in your LaTeX document. I did, and here is a nice way to solve the problem
 
@@ -389,3 +380,4 @@ We add an invisible + in the first column and 3 empty boxes in the next 3 column
 This forces vertical space between specific rows (and around `\cline`), this is the “nuclear option” that always works inside array/tabular.
 
 The rest do not require any explanation.
+
