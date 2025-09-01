@@ -1,0 +1,15 @@
+{
+    "version" : "https://jsonfeed.org/version/1.1",
+    "title" : "DoIt",
+    "description": "My personal view on what is going on around the world",
+    "home_page_url" : "https://buffos.github.io/",
+    "feed_url" : "https://buffos.github.io/index.feed",
+    "icon" : "https://buffos.github.io/apple-touch-icon.png",
+    "favicon" : "https://buffos.github.io/favicon.ico",
+    "author" : {
+        "name" : "Kostas Oraiopoulos",
+        "avatar": "https://buffos.github.io/images/kostas.jpg"
+    },
+    "items" : [
+    ]
+}

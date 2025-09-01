@@ -1,0 +1,169 @@
+# site description
+description = "My personal view on what is going on around the world"
+# site keywords
+keywords = ["Maths", "AI", "Code", "Chess"]
+# App icon config
+
+[app]
+  # optional site title override for the app when added to an iOS home screen or Android launcher
+  title = "Buffo's Land"
+  # whether to omit favicon resource links
+  noFavicon = false
+  # modern SVG favicon to use in place of older style .png and .ico files
+  svgFavicon = ""
+  # Safari mask icon color
+  iconColor = "#5bbad5"
+  # Windows v8-10 tile color
+  tileColor = "#da532c"
+# Search config
+[search]
+  enable = false
+  # type of search engine ("algolia", "fuse", "pagefind")
+  type = "algolia"
+  # max index length of the chunked content
+  contentLength = 4000
+  # placeholder of the search bar
+  placeholder = ""
+  # max number of results length
+  maxResultLength = 10
+  # snippet length of the result
+  snippetLength = 40
+  # HTML tag name of the highlight part in results
+  highlightTag = "em"
+  # whether to use the absolute URL based on the baseURL in search index
+  absoluteURL = false
+  [search.algolia]
+    index = "en_index"
+    appID = "5YGRNRQK1G"
+    searchKey = "0ff6874805de24b84aa1d5ebccad56cd"
+  [search.fuse]
+    # https://fusejs.io/api/options.html
+    isCaseSensitive = false
+    minMatchCharLength = 2
+    findAllMatches = false
+    location = 0
+    threshold = 0.1
+    distance = 100
+    ignoreLocation = true
+    useExtendedSearch = false
+    ignoreFieldNorm = false
+  [search.pagefind]
+    # https://pagefind.app/docs/search-config/#available-options
+    # run `npx pagefind --site $YOUR_PUBLIC_DIR` after site build to create pagefind index
+    termFrequency = 1.0
+    pageLength = 0.75
+    termSimilarity = 1.0
+    termSaturation = 1.4
+# Home page config
+[home]
+  # amount of RSS pages
+  rss = 10
+  # Home page profile
+  [home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    gravatarEmail = ""
+    # URL of avatar shown in home page
+    avatarURL = "profile.avif"
+    # URL the avatar links to
+    # 头像的链接指向的 URL
+    avatarLinkURL = ""
+    # title shown in home page (HTML format is supported)
+    title = ""
+    # subtitle shown in home page
+    # 主页显示的网站副标题
+    subtitle = "A restless learner, incurable procrastinator. "
+    # whether to use typeit animation for subtitle
+    typeit = true
+    # whether to show social links
+    # 是否显示社交账号
+    social = true
+    # disclaimer (HTML format is supported)
+    disclaimer = ""
+  # Home page posts
+  [home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    paginate = 7
+# Social config in home page
+[social]
+  Angellist = ""
+  Bandcamp = ""
+  Behance = ""
+  Bilibili = ""
+  Bitbucket = ""
+  BuyMeACoffee = ""
+  Codepen = ""
+  Deviantart = ""
+  Devto = ""
+  Douban = ""
+  Dribbble = ""
+  Email = ""
+  Facebook = "buffos"
+  Fivehundredpx = ""
+  Flickr = ""
+  Foursquare = ""
+  FreeCodeCamp = ""
+  Gitea = ""
+  GitHub = "buffos"
+  Gitlab = ""
+  Goodreads = ""
+  Googlescholar = ""
+  Hackernews = ""
+  Instagram = ""
+  Jsfiddle = ""
+  Keybase = ""
+  Kickstarter = ""
+  Ko-Fi = ""
+  Lastfm = ""
+  Liberapay = ""
+  Linkedin = "kostasoreopoulos"
+  Linktree = ""
+  Matrix = ""
+  Medium = ""
+  Mix = ""
+  Odnoklassniki = ""
+  ORCID = ""
+  Patreon = ""
+  Paypal = ""
+  Pinterest = ""
+  QQ = ""
+  QQGroup = ""
+  Quora = ""
+  Reddit = ""
+  Researchgate = ""
+  RSS = true
+  Skype = ""
+  Slidershare = ""
+  Snapchat = ""
+  Soundcloud = ""
+  Spotify = ""
+  Stackoverflow = ""
+  Steam = ""
+  Strava = ""
+  Telegram = ""
+  Thingiverse = ""
+  Tumblr = ""
+  Twitch = ""
+  Twitter = "koreopoulos"
+  Vine = ""
+  VK = ""
+  Weibo = ""
+  Whatsapp = ""
+  Wordpress = ""
+  Xing = ""
+  XMPP = ""
+  Youtubechannel = "UCb5pCcNHpNWvDz59cT44noA"
+  Youtubecustom = ""
+  Youtubelegacy = ""
+  Zhihu = ""
+  Bluesky = ""
+  [social.Mastodon]
+    id = "@koreopoulos"
+    prefix = "https://mathstodon.xyz/"
+# Sponsor config
+[sponsor]
+  enable = false
+  bio = "If you find this post helpful, please consider sponsoring."
+  link = "https://github.com/sponsors/HEIGE-PCloud"
+  # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"

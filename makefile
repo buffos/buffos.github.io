@@ -1,4 +1,4 @@
 build:
-	hugo build --destination build --minify
+	hugo build --destination docs --minify
 serve:
 	hugo server --buildDrafts --openBrowser --watch
