@@ -3,10 +3,10 @@ date = '2025-08-27T22:30:43+03:00'
 authors = ["Kostas"]
 draft = false
 title = "LaTeX: Creating placeholder boxes for mathematical operations"
-tags = ["latex","boxes"]
+tags = ["latex","latex-boxes"]
 categories = ["LaTeX",]
 lightgallery =  true
-images = ["/images/2025/latex_boxes.avif"]
+images = ["/images/2025/latex_boxes.webp"]
 featuredImage = "images/2025/latex_boxes.webp"
 +++
 
