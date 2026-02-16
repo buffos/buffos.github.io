@@ -1,4 +1,4 @@
-# Introducing the Angular Enterprise Dashboard: A Journey into Modern Web Engineering - Part 01
+# Angular Enterprise Dashboard - Introduction: A Journey into Modern Web Engineering
 
 
 In the ever-evolving landscape of web development, staying ahead means embracing the cutting edge. This project, the **Angular Enterprise Dashboard**, is born from a desire to showcase what is possible with the latest advancements in the Angular ecosystem.

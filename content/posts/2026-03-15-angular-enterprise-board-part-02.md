@@ -2,12 +2,13 @@
 date = '2026-02-15T14:52:37+02:00'
 authors = ["Kostas"]
 draft = false
-title = "Phase 1: Building a Resilient Core with Dependency Injection - Part 02"
+title = "Angular Enterprise Dashboard - Phase 1: Building a Resilient Core with Dependency Injection"
 tags = ["angular", "architecture", "dependency-injection", "zoneless", "tutorial"]
 categories = ["Angular Engineering"]
 lightgallery = true
 images = ["/images/2026/angular-3-logo-png-transparent.png"]
 featuredImage = "images/2026/angular-3-logo-png-transparent.png"
+series = ["angular-enterprise-board"]
 +++
 
 Welcome to the second post in our series. In the [Introduction](/blog/introduction), we talked about the vision. Now, it's time to get our hands dirty. **Phase 1** was all about the foundation—the invisible plumbing that makes a professional application robust or brittle.
@@ -81,7 +82,7 @@ export interface AppConfig {
   production: boolean;
 }
 
-export const APP_CONFIG = new InjectionToken<AppConfig>('APP_CONFIG');
+export const APP_CONFIG = new InjectionToken<AppConfig>("APP_CONFIG");
 ```
 
 And we provide the value at the application root:
@@ -128,4 +129,3 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
 By the end of Phase 1, we have a "shell" that is optimized for performance (Zoneless), highly configurable through `InjectionTokens`, and resilient thanks to a global error handling strategy.
 
 **Next up:** Phase 2, where we tackle Security, functional guards, and our first premium UI components with glassmorphism.
-
