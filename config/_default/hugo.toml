@@ -2,7 +2,7 @@ baseURL = "https://buffos.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "en"
 # website title
-title = "DoIt"
+title = "Buffo's Corner"
 
 # whether to use robots.txt
 enableRobotsTXT = true
